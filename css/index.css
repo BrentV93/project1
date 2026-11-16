@@ -1,0 +1,311 @@
+:root {
+    --warm-wit: #eee7da;
+    --donkerblauw: #262c43;
+    --beige: #e5dccb;
+    --wit: #faf8f1;
+}
+
+body {
+    margin: 0;
+    background-color: var(--beige);
+    font-family: "Nunito Sans", sans-serif;
+    color: var(--donkerblauw);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    color: #536b91;
+}
+
+/* ------------------------------- Header ------------------------------- */
+.header-website {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5% 20px 3%;
+    background: linear-gradient(to right, var(--donkerblauw), #536b91);
+}
+
+.header-tekst {
+    color: var(--warm-wit);
+}
+
+.header-tekst h1 {
+    margin: 3px;
+    font-size: 20px;
+}
+
+.header-tekst p {
+    margin: 1px;
+}
+
+/* ------------------------------- Navigatiebalk en menu ------------------------------- */
+.navigatiebalk ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigatiebalk li {
+    float: left;
+    position: relative;
+}
+
+.navigatiebalk a {
+    display: block;
+    padding: 10px 16px;
+    color: var(--warm-wit);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navigatiebalk a:hover {
+    text-decoration: underline 1px;
+    text-underline-offset: 10px;
+}
+
+/* ------------------------------- Dropdownmenu ------------------------------- */
+.navigatiebalk li ul {
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    list-style: none;
+    background-color: #536b91;
+}
+
+.navigatiebalk li:hover ul {
+    display: block;
+}
+
+/* ------------------------------- Footer ------------------------------- */
+.footer {
+    background: linear-gradient(to right, var(--donkerblauw), #536b91);
+    color: var(--warm-wit);
+    text-align: end;
+    margin-top: 100px;
+    padding: 1em;
+    margin-bottom: 0;
+}
+
+
+/* ------------------------------- index pagina ------------------------------- */
+/* ------------------------------- intro tekst ------------------------------- */
+.intro {
+    margin-left: 200px;
+    color: var(--donkerblauw);
+}
+
+.intro p {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.intro h2 {
+    font-size: 60px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+/* ------------------------------- Kader met foto en tekst ------------------------------- */
+.kennismaking-blok {
+    background-color: var(--warm-wit);
+    width: 90%;
+    max-width: 1800px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+}
+
+.kennismaking-foto {
+    margin: 6em;
+}
+
+.kennismaking-knop {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.kennismaking-link {
+    display: block;
+    padding: 12px 20px;
+    background: linear-gradient(to right, var(--donkerblauw), #536b91);
+    color: var(--warm-wit);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.kennismaking-tekst {
+    margin: 0;
+    padding: 20px;
+    background-color: var(--wit);
+    color: var(--donkerblauw);
+}
+
+.kennismaking-tekst h3 {
+    font-size: 40px;
+}
+
+.kennismaking-foto img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* ------------------------------- cv pagina ------------------------------- */
+.cv-main {
+    width: 90%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.cv-icoon {
+    width: 35px;
+    padding: 0 30px 4px 20px;
+}
+
+/* ------------------------------- Titel ------------------------------- */
+.cv-titel {
+    margin: 30px 0 30px 0;
+}
+
+.cv-titel p {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.cv-titel h1 {
+    margin: 5px 0 0 0;
+    padding: 0;
+    font-size: 40px;
+}
+
+/* ------------------------------- div-kader ------------------------------- */
+.cv-blok {
+    background-color: var(--warm-wit);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.cv-blok h2 {
+    display: flex;
+    margin: 0;
+}
+
+/* ------------------------------- Profiel ------------------------------- */
+.cv-profiel {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.cv-profiel h2 {
+    border-right: 1px solid;
+    border-color: var(--donkerblauw);
+    padding-right: 150px;
+}
+
+/* ------------------------------- container met 4 onderdelen ------------------------------- */
+.cv-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cv-kolom {
+    display: flex;
+    width: 885px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* ------------------------------- Opleiding & Werkervaring ------------------------------- */
+.cv-box {
+    width: 700px;
+}
+.cv-box p {
+    margin: 0;
+}
+
+ .cv-opleiding {
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+}
+
+.cv-opleiding p {
+    margin: 0;
+}
+
+.cv-datum {
+    width: 150px;
+    margin: 0;
+}
+
+.cv-opleiding h3 {
+    margin: 0;
+} 
+
+/* ------------------------------- Vaardigheden ------------------------------- */
+.vaardigheden-container {
+    display: flex;
+}
+
+.vaardigheden-groep {
+    width: 50%;
+}
+
+.vaardigheden-groep h3 {
+    display: inline-block;
+    background-color: #536b91;
+    color: var(--warm-wit);
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.vaardigheden-lijst {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+.vaardigheden-lijst li {
+    background-color: var(--beige);
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+/* ------------------------------- Talen ------------------------------- */
+
+.cv-talen {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}

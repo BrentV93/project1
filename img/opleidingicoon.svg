@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">Opleiding</title>
+
+  <!-- Academiehoed -->
+  <polygon points="50,18 8,38 50,58 92,38" fill="#262c43"/>
+
+  <!-- Onderste deel van de hoed -->
+  <path d="M25 48v18c0 8 11 15 25 15s25-7 25-15V48L50 60z" fill="#262c43"/>
+
+  <!-- Kwast -->
+  <path d="M82 42v25" fill="none" stroke="#262c43" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="82" cy="70" r="5" fill="#262c43"/>
+</svg>

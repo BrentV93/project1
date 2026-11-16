@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">Werkervaring</title>
+  <path d="M36 28v-7c0-4 3-7 7-7h14c4 0 7 3 7 7v7" fill="none" stroke="#262c43" stroke-width="7" stroke-linecap="round"/>
+  <rect x="12" y="28" width="76" height="57" rx="8" fill="#262c43"/>
+  <path d="M12 52h76" fill="none" stroke="#eee7da" stroke-width="4"/>
+  <rect x="44" y="47" width="12" height="11" rx="2" fill="#262c43" stroke="#eee7da" stroke-width="3"/>
+</svg>

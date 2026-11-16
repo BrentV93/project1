@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">Talen</title>
+  <path d="M50 16
+           C27 16 10 30 10 49
+           C10 61 17 71 29 77
+           L21 91
+           L42 82
+           C45 83 48 83 50 83
+           C73 83 90 69 90 49
+           C90 30 73 16 50 16 Z"
+        fill="none"
+        stroke="#262c43"
+        stroke-width="7"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>
