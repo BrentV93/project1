@@ -21,11 +21,11 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a {
@@ -110,11 +110,9 @@ a {
 /* ------------------------------- intro tekst ------------------------------- */
 .intro {
     margin-left: 200px;
-    color: var(--donkerblauw);
 }
 
 .intro p {
-    font-size: 20px;
     margin: 0;
     padding-top: 60px;
 }
@@ -311,9 +309,15 @@ a {
 }
 
 /* ------------------------------- ervaring pagina ------------------------------- */
+.ervaring-main {
+    width: 90%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
 /* ------------------------------- hoofdpagina ervaring ------------------------------- */
 
-.ervaring-main {
+.ervaring-titel {
     margin: 0;
     padding-left: 70px;
     padding-top: 60px;
@@ -329,6 +333,31 @@ a {
 
 /* ------------------------------- subpagina werkervaring ------------------------------- */
 
-.werkervaring-titel {
+/* ------------------------------- Titel  ------------------------------- */
 
+.werkervaring-titel p {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.werkervaring-titel h2 {
+    margin: 0;
+    padding-top: 60px;
+}
+
+/* ------------------------------- Blokken  ------------------------------- */
+.werkervaring-blok {
+    background-color: var(--warm-wit);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.werkervaring-datum {
+    display: inline-block;
+    background-color: var(--beige);
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 20px;
 }
