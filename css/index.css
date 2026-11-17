@@ -309,3 +309,26 @@ a {
     margin-left: 100px;
     margin-right: 100px;
 }
+
+/* ------------------------------- ervaring pagina ------------------------------- */
+/* ------------------------------- hoofdpagina ervaring ------------------------------- */
+
+.ervaring-main {
+    margin: 0;
+    padding-left: 70px;
+    padding-top: 60px;
+}
+
+.ervaring-main h2 {
+    margin-bottom: 0;
+}
+
+#ervaring-spatie {
+    padding: 200px;
+}
+
+/* ------------------------------- subpagina werkervaring ------------------------------- */
+
+.werkervaring-titel {
+
+}
