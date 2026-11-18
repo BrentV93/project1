@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Laptop icoon</title>
+  <desc id="desc">Witte laptop op een blauwe cirkel met transparante buitenkant.</desc>
+
+  <!-- Blauwe cirkel -->
+  <circle cx="256" cy="256" r="220" fill="#536b91"/>
+
+  <!-- Laptop -->
+  <g fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Scherm -->
+    <rect x="145" y="150" width="222" height="145" rx="10"/>
+
+    <!-- Onderkant / toetsenbord -->
+    <path d="M145 295 L112 345
+             Q107 354 119 354
+             H393
+             Q405 354 400 345
+             L367 295 Z"/>
+  </g>
+
+  <!-- Trackpad -->
+  <rect x="238" y="326" width="36" height="10" rx="5" fill="#ffffff"/>
+</svg>

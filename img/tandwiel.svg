@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Tandwiel icoon</title>
+  <desc id="desc">Marineblauw tandwiel op een beige cirkel met transparante buitenkant.</desc>
+
+  <!-- Beige cirkel -->
+  <circle cx="256" cy="256" r="220" fill="#e5dccb"/>
+
+  <!-- Tandwiel -->
+  <g fill="#1d3154">
+    <path d="
+      M236 105
+      Q236 91 250 91
+      H262
+      Q276 91 276 105
+      L280 132
+      Q300 137 318 147
+      L340 130
+      Q351 121 361 131
+      L381 151
+      Q391 161 382 172
+      L365 194
+      Q375 212 380 232
+      L407 236
+      Q421 238 421 252
+      V260
+      Q421 274 407 276
+      L380 280
+      Q375 300 365 318
+      L382 340
+      Q391 351 381 361
+      L361 381
+      Q351 391 340 382
+      L318 365
+      Q300 375 280 380
+      L276 407
+      Q274 421 260 421
+      H252
+      Q238 421 236 407
+      L232 380
+      Q212 375 194 365
+      L172 382
+      Q161 391 151 381
+      L131 361
+      Q121 351 130 340
+      L147 318
+      Q137 300 132 280
+      L105 276
+      Q91 274 91 260
+      V252
+      Q91 238 105 236
+      L132 232
+      Q137 212 147 194
+      L130 172
+      Q121 161 131 151
+      L151 131
+      Q161 121 172 130
+      L194 147
+      Q212 137 232 132
+      Z
+
+      M256 178
+      A78 78 0 1 0 256 334
+      A78 78 0 1 0 256 178
+      Z
+    " fill-rule="evenodd"/>
+
+    <!-- Middelpunt -->
+    <circle cx="256" cy="256" r="27"/>
+  </g>
+</svg>

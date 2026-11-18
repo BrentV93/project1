@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Code icoon</title>
+  <desc id="desc">Marineblauw code-symbool op een beige cirkel met transparante buitenkant.</desc>
+
+  <circle cx="256" cy="256" r="220" fill="#e5dccb"/>
+
+  <g fill="none" stroke="#1d3154" stroke-width="30" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M190 180 L115 256 L190 332"/>
+    <path d="M322 180 L397 256 L322 332"/>
+    <path d="M285 145 L227 367"/>
+  </g>
+</svg>
