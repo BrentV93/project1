@@ -15,10 +15,12 @@ body {
 
 h1 {
     font-size: 60px;
+    margin: 0;
 }
 
 h2 {
     font-size: 40px;
+    margin: 0;
 }
 
 h3 {
@@ -381,3 +383,48 @@ a {
     margin: 5px;
     border-radius: 20px;
 }
+
+/* ------------------------------- Pagina Opleiding  ------------------------------- */
+/* ------------------------------- INTRO  ------------------------------- */
+
+.opleiding-intro {
+    display: flex;
+    height: 600px;
+}
+
+.intro-tekst {
+    width: 40%;
+}
+
+.intro-titel {
+    padding: 5% 5% 2% 5%;
+}
+
+.intro-titel p {
+    margin:0;
+}
+
+#intro-streep {
+    margin-left: 5%;
+    width: 100px;
+}
+
+.intro-paragraaf {
+    padding: 2% 5% 5% 5%;
+}
+
+.intro-paragraaf p {
+    margin: 0;
+}
+
+.intro-afbeelding {
+width: 60%;
+}
+
+.intro-afbeelding img {
+height: 600px;
+float: right;
+}
+
+/* ------------------------------- Parcours  ------------------------------- */
+
